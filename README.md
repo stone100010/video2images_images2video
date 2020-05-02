@@ -10,7 +10,7 @@ In images2video part, We have to add pathIn (path of the folder which contains a
 It will generate output video in any format. (eg.: .avi, .mp4, etc.)
 Note that all images will be automatically ordered like frame1.jpg, frame2.jpg and so on.
 
-After running images2video on a floder of processed images for car recognization. I get a video "nijmegen2_10x.mp4". 
+After running images2video on a floder of processed images for car recognization, for example, I get a video "nijmegen2_10x.mp4". 
 
 <center>
 <video width="400" height="200" src="nijmegen2_10x.mp4" type="video/mp4" controls>
