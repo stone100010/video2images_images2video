@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri May  1 17:59:01 2020
-
+video2images and images2video
 @author: lwang
 """
 
@@ -10,7 +10,7 @@ import cv2
 
 file_path = './videos/Nijmegenroad3.mp4'
 save_path = './frames/'  # do not miss the last '/'! 
-frameRate = 0.2 #//it will capture image in each 0.5 second
+frameRate = 0.2 #it will capture image in each 0.2 second, fps=1/frameRate
 
 
 vidcap = cv2.VideoCapture(file_path)
@@ -41,9 +41,9 @@ import os
 from os.path import isfile, join
 
 pathIn= './out/' # do not miss the last '/'! 
-pathOut = 'nijmegen3_1x.mp4' # or mp4, .avi etc.
+pathOut = 'nijmegen3_1x.mp4' # .mp4, or .avi etc.
 
-fps = 2*1 # how many frames in one sec
+fps = 2 # how many frames in one sec
 
 frame_array = []
 files = [f for f in os.listdir(pathIn) if isfile(join(pathIn, f))]
