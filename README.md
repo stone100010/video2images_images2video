@@ -9,3 +9,10 @@ Explanation for images2video (part 2):
 In images2video part, We have to add pathIn (path of the folder which contains all the images). I set framerate with 0.5 so it will take 2 images for 1 second.)
 It will generate output video in any format. (eg.: .avi, .mp4, etc.)
 Note that all images will be automatically ordered like frame1.jpg, frame2.jpg and so on.
+
+If you were to run images2video on a floder of processed images for car recognization. Here's what you would get:
+
+<center>
+<video width="400" height="200" src="nijmegen2_10x.mp4.mp4" type="video/mp4" controls>
+</video>
+</center>
